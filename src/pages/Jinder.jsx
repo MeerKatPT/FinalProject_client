@@ -48,7 +48,7 @@ function Jinder() {
         jobs.results.map((job) => {
           return (
             <div key={job.id}>
-              <Card style={{ width: "18rem" }}>
+              <Card className="jobCards" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src={job.company.logo} />
                 <Card.Body>
                   <Card.Title>{job.title}</Card.Title>

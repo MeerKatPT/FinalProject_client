@@ -51,7 +51,7 @@ function EditNotes() {
   };
 
   return (
-    <div className="AddNotes">
+    <div className="notesDiv">
       <form onSubmit={handleSubmit}>
         <label htmlFor="content">Write your notes here</label>
         <textarea

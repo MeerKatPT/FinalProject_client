@@ -54,7 +54,7 @@ function Profile() {
           Edit Account
         </Link>
       </header> */}
-      <div className="vh-100" style={{ backgroundColor: "#9de2ff" }}>
+      <div className="vh-100" style={{ backgroundColor: "#129791;" }}>
         <MDBContainer>
           <MDBRow className="justify-content-center">
             <MDBCol md="9" lg="7" xl="5" className="mt-5">

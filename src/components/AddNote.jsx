@@ -33,10 +33,8 @@ function AddNote(props) {
     }
   };
   return (
-    <div className="AddNotes">
+    <div className="notesDiv">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="title">Job Title</label>
-        <label htmlFor="company">Company</label>
         <label htmlFor="content">Write your notes here</label>
         <textarea
           name="content"

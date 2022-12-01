@@ -45,7 +45,7 @@ function Notes() {
       {notes &&
         notes.map((note) => {
           return (
-            <div>
+            <div className="notesDiv">
               <h3>{note.name}</h3>
               <h4>{note.title}</h4>
 

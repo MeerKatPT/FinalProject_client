@@ -10,6 +10,7 @@
 
 .App {
   text-align: center;
+  background-color: #129791;
 }
 
 .overlay {
@@ -23,7 +24,6 @@
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
- 
 }
 
 .overlay-content {
@@ -70,6 +70,16 @@
   width: 100px;
 }
 
+.profilePage {
+  background-color: #129791;
+}
+
+.jobCards {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .hamburguer {
     font-size: 30px;
@@ -83,6 +93,16 @@
   .logo {
     width: 100px;
   }
+}
+
+.jobCards {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.notesDiv {
+  height: 100vh;
 }
 
 @media screen and (max-height: 450px) {
